@@ -15,8 +15,8 @@
 
 #include "camera_pins.h"
 
-const char* ssid ="Momo"; //"robotlab_2";//"hzaurobotlab";
-const char* password ="huierhuier"; //"robot_lab";//"hzaurobot";
+const char* ssid ="hlg"; //"robotlab_2";//"hzaurobotlab";
+const char* password ="19981120"; //"robot_lab";//"hzaurobot";
 
 void startCameraServer();
 
