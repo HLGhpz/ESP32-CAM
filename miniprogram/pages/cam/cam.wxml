@@ -1,4 +1,15 @@
 <!--miniprogram/pages/cam.wxml-->
-<button class="get_image" bindtap="get_image">获取图片</button>
 
-<image src='{{url}}'></image>
+<van-cell-group>
+    <van-field value="" placeholder="请IP地址" border="" bind:change="onChange" />
+</van-cell-group>
+
+<button class="get_image" bindtap="get_image">显示图像</button>
+<!-- <van-row>
+    <van-col span="18" offset="10">
+    </van-col>
+</van-row> -->
+<!-- <van-button plain type="primary" bindtap="get_image">朴素按钮</van-button> -->
+
+<image src='{{url}}' class="esp_image"></image>
+<image src="1.jpg" class="esp2_image"></image>
