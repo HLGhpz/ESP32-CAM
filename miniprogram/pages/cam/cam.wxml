@@ -1,0 +1,4 @@
+<!--miniprogram/pages/cam.wxml-->
+<button class="get_image" bindtap="get_image">获取图片</button>
+
+<image src='{{url}}'></image>
